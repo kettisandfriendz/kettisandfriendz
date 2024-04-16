@@ -7,11 +7,23 @@ html {
     background-size: contain;
 }
 
-body {
-    padding-top: 45vw;
-}
 
 .kettis_friendz_header {
+    display: grid;
+    grid-template-columns: 18vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0px;
+    position: fixed;
+    right: 2vw;
+    top: 2vw;
+}
+
+.kettis_friendz_header_title {
     font-family: courier;
     font-weight: bold;
     width: 18vw;
@@ -27,7 +39,7 @@ body {
     margin: 0px;
 }
 
-.sidebar-button{
+.sidebar-button {
     background-color: rgba(255, 255, 255, 0.95);
     font-family: courier;
     font-size: 2vw;
@@ -41,8 +53,9 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 .sidebar-button:hover {
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .sidebar-button:active {
@@ -50,7 +63,7 @@ body {
     transform: scale(0.98);
 }
 
-.icon{
+.icon {
     width: 2vw;
     align-items: center;
 }
@@ -58,7 +71,7 @@ body {
 .transparent-box {
     font-family: courier;
     font-size: 1vw;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.85);
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 1vw;
@@ -79,7 +92,7 @@ body {
 }
 
 .footer-button:hover {
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .footer-button:active {
@@ -102,3 +115,55 @@ h2 {
     margin-top: 0.5vw;
     margin-bottom: 0px;
 }
+
+/* Existing styles.css content */
+
+/* Add mobile-specific styles below */
+@media (max-width: 768px) {
+    html {
+        background-size: repeat;
+    }
+
+    .kettis_friendz_header {
+        grid-template-columns: 1fr; /* Takes the full available space */
+        background-color: rgba(255, 255, 255, 0.75);
+        margin-left: 3vw;
+        margin-right: 3vw;
+        position: static;
+    }
+
+    .kettis_friendz_header_title, .kettis_friendz_header_date {
+        font-size: 5vw; /* Larger font size for readability */
+        width: 80%; /* Use percentage-based widths for responsiveness */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .kettis_friendz_header_date {
+        font-size: 3vw; /* Slightly smaller than the main header, but still larger than the desktop version */
+    }
+
+    .sidebar-button, .footer-button {
+        font-size: 4vw; /* Larger font size for easier readability and touch */
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .icon {
+        width: 5vw; /* Larger icon size for better visibility */
+    }
+
+    .transparent-box {
+        font-size: 3vw; /* Larger font size for readability */
+        padding: 3vw; /* More padding for better structure */
+        margin-left: 3vw; /* Adjusted margins for better fit */
+        margin-right: 3vw;
+    }
+
+    h1, h2, p {
+        margin-top: 1vw; /* Adjusted margins for spacing */
+    }
+}
+
