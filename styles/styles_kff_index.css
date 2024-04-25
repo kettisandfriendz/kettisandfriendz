@@ -40,9 +40,8 @@ html {
 }
 
 .header_line {
-    width: 90%; 
-    height: 3px; 
-    background-color: black; 
+    border-top: 3px solid black;
+    width: 90%;
 }
 
 .sidebar-button {
@@ -154,9 +153,8 @@ h2 {
     }
 
     .header_line {
-        width: 90%; 
-        height: 1px; 
-        background-color: black; 
+        border-top: 3px solid black;
+        width: 90%;
     }
 
     .sidebar-button, .footer-button {
