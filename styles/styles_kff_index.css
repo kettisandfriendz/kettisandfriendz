@@ -40,7 +40,8 @@ html {
 }
 
 .header_line {
-    border-top: 3px solid black;
+    height: 3px;
+    color: black;
     width: 90%;
 }
 
@@ -153,7 +154,8 @@ h2 {
     }
 
     .header_line {
-        border-top: 3px solid black;
+        height: 1px;
+        color: black;
         width: 90%;
     }
 
