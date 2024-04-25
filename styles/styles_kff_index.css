@@ -39,6 +39,12 @@ html {
     margin: 0px;
 }
 
+.header_line {
+    width: 90%; 
+    height: 3px; 
+    background-color: black; 
+}
+
 .sidebar-button {
     background-color: rgba(255, 255, 255, 0.95);
     font-family: courier;
@@ -145,6 +151,12 @@ h2 {
 
     .kettis_friendz_header_date {
         font-size: 3vw; /* Slightly smaller than the main header, but still larger than the desktop version */
+    }
+
+    .header_line {
+        width: 90%; 
+        height: 1px; 
+        background-color: black; 
     }
 
     .sidebar-button, .footer-button {
