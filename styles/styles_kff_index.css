@@ -7,6 +7,19 @@ html {
 }
 
 
+.text:link, .text:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text:hover, .text:active {
+  background-color: red;
+}
+
 .kettis_friendz_header {
     display: grid;
     grid-template-columns: 18vw;
@@ -37,7 +50,6 @@ html {
     font-size: 1.5vw;
     margin: 0px;
 }
-
 
 .sidebar-button {
     background-color: rgba(255, 255, 255, 0.95);
