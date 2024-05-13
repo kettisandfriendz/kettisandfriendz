@@ -17,14 +17,14 @@ html {
 
 .kettis_friendz_header {
     display: grid;
-    grid-template-columns: 18.77vw;
+    grid-template-columns: 18.8vw;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
-    padding: 10px;
+    border-width: .15vw;
+    padding: .5vw;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.75);
-    margin: 0px;
+    margin: 0vw;
     position: fixed;
     right: 2vw;
     top: 2vw;
@@ -52,7 +52,7 @@ html {
     font-size: 1.7vw;
     border-radius: 10px;
     border-style: solid;
-    border-width: .15vw;
+    border-width: .12vw;
     border-color: black;
     cursor: pointer;
     padding-left: 0.7vw;
@@ -144,6 +144,7 @@ body {
     margin-left: 3vw;
     margin-right: 3vw;
 }
+
 .transparent_box2_div {
     display: flex;
     flex-direction: row;
@@ -216,12 +217,17 @@ body {
         width: 4vw; /* Larger icon size for better visibility */
     }
 
-    .transparent-box {
+    .transparent_box_div {
         grid-template-columns: 1fr; /* Takes the full available space */
+        background-color: rgba(255, 255, 255, 0.75);
         font-size: 3vw; /* Larger font size for readability */
         padding: 3vw; /* More padding for better structure */
-        /* margin-left: 3vw; /* Adjusted margins for better fit */
-        /* margin-right: 3vw; */
+        margin: 3vw;
+        /* added */
+        border-style: solid;
+        border-color: black;
+        border-width: .05vw;
+        position: static;
     }
 
     h1, h2, p {
