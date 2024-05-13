@@ -46,6 +46,8 @@ html {
     margin: 0px;
 }
 
+/* ---------------------------- sidebare and footer buttons ------------------------------------- */
+
 .sidebar-button {
     background-color: rgba(255, 255, 255, 0.95);
     font-family: courier;
@@ -75,18 +77,6 @@ html {
     align-items: center;
 }
 
-.transparent-box {
-    font-family: courier;
-    font-size: 1vw;
-    background-color: rgba(255, 255, 255, 0.93);
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 1vw;
-    margin-left: 15vw;
-    margin-right: 20vw;
-    margin-top: 0vw;
-}
-
 .footer-button {
     font-family: courier;
     font-size: 0.7vw;
@@ -107,7 +97,11 @@ html {
     opacity: 0.95;
     transform: scale(0.98);
 }
+/* ----------------------------- sidebare and footer buttons ------------------------------------- */
 
+
+
+/* ----------------------------- Main body properties -------------------------------------------- */
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -128,7 +122,12 @@ body {
     margin-top: 0vw;
     padding-top: 18vw; /* 360.4px; In order to place the body at the end of the header div image */
 }
+/* ---------------------------- Main body properties ---------------------------- */
 
+
+
+
+/* ---------------------------- div tags for the body ---------------------------- */
 .footer_div {
     display: flex;
     flex-direction: row;
@@ -137,12 +136,31 @@ body {
     margin-bottom: 1vw;
 }
 
-.transparent_box1_div {
+.transparent-box {
+    font-family: courier;
+    font-size: 1vw;
+    background-color: rgba(255, 255, 255, 0.93);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-left: 15vw;
+    margin-right: 20vw;
+    margin-top: 0vw;
+}
+
+.transparent_box_div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 18vw;
+    margin-right: 23vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-family: courier;
+    font-size: 1vw;
+    background-color: rgba(140, 72, 159, .93 ); /*rgba(255, 255, 255, 0.93);*/
+    border: .05vw solid #ccc;
+    border-radius: 10px;
 }
 
 .transparent_box2_div {
@@ -164,8 +182,7 @@ body {
     padding-top: 0vw;
     padding-bottom: .5vw;
 }
-
-/* Existing styles.css content */
+/* ---------------------------- div tags for the body ---------------------------- */
 
 /* Add mobile-specific styles below */
 @media (max-width: 768px) {
