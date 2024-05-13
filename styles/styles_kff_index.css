@@ -129,6 +129,41 @@ body {
     padding-top: 360.4px; /* In order to place the body at the end of the header div image */
 }
 
+.footer_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+.transparent_box1_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.transparent_box2_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3vw;
+    margin-top: 1vw;
+}
+
+.sidebar_div {
+    position: fixed;
+    left: 2vw;
+    bottom: .3vw;
+}
+
+.sidebare_button_div {
+    display: flex;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    padding-bottom: .5vw;
+}
 /* Existing styles.css content */
 
 /* Add mobile-specific styles below */
