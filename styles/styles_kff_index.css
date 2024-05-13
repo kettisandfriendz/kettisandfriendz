@@ -126,7 +126,7 @@ h2 {
 
 body {
     margin-top: 0vw;
-    padding-top: 360.4px; /* In order to place the body at the end of the header div image */
+    padding-top: 18vw; /* 360.4px; In order to place the body at the end of the header div image */
 }
 
 .footer_div {
@@ -159,11 +159,11 @@ body {
 }
 
 .sidebare_button_div {
-    display: flex;
     padding-left: 0vw;
     padding-top: 0vw;
     padding-bottom: .5vw;
 }
+
 /* Existing styles.css content */
 
 /* Add mobile-specific styles below */
@@ -175,8 +175,7 @@ body {
     .kettis_friendz_header {
         grid-template-columns: 1fr; /* Takes the full available space */
         background-color: rgba(255, 255, 255, 0.75);
-        margin-left: 3vw;
-        margin-right: 3vw;
+        margin: 3vw;
         /* added */
         border-style: solid;
         border-color: black;
@@ -194,11 +193,12 @@ body {
     .kettis_friendz_header_date {
         font-size: 3vw; /* Slightly smaller than the main header, but still larger than the desktop version */
     }
-
-    .header_line {
-        border: .5vw solid red;
+    
+    .sidebar_div {
+        left: 2vw;
+        bottom: .3vw;
     }
-
+    
     .sidebar-button {
         font-size: 4vw; /* Larger font size for easier readability and touch */
         padding-left: 2vw;
@@ -228,14 +228,14 @@ body {
     }
 
     body {
-        padding: 3vw;
+        padding: 0vw;
     }
 
     .footer-button {
         font-family: courier;
-        font-size: 1vw;
+        font-size: 4vw;
         background-color: rgba(255, 255, 255, 0.95);
-        border: 0.8px solid red; /* #ccc */
+        border: 0.8px solid green; /* #ccc */
         border-radius: 10px;
         padding-left: 0.4vw;
         padding-right: 0.4vw;
