@@ -217,18 +217,15 @@ body {
     }
 
     .transparent-box {
+        grid-template-columns: 1fr; /* Takes the full available space */
         font-size: 3vw; /* Larger font size for readability */
-        padding-top: 3vw; /* More padding for better structure */
-        margin-left: 3vw; /* Adjusted margins for better fit */
-        margin-right: 3vw;
+        padding: 3vw; /* More padding for better structure */
+        /* margin-left: 3vw; /* Adjusted margins for better fit */
+        /* margin-right: 3vw; */
     }
 
     h1, h2, p {
         margin-top: 1vw; /* Adjusted margins for spacing */
-    }
-
-    body {
-        padding: 0vw;
     }
 
     .footer-button {
