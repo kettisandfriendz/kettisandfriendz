@@ -1,6 +1,5 @@
 /* styles.css */
 
-
 html {
     background-image: url('../images/background_img.png');
     background-repeat: repeat;
@@ -127,7 +126,7 @@ h2 {
 
 body {
     margin-top: 0vw;
-    padding-top: 360.4px;
+    padding-top: 360.4px; /* In order to place the body at the end of the header div image */
 }
 
 /* Existing styles.css content */
@@ -162,10 +161,10 @@ body {
     }
 
     .header_line {
-        border: 0.5px solid black;
+        border: .5vw solid red;
     }
 
-    .sidebar-button, .footer-button {
+    .sidebar-button {
         font-size: 4vw; /* Larger font size for easier readability and touch */
         padding-left: 2vw;
         padding-right: 2vw;
@@ -184,7 +183,7 @@ body {
 
     .transparent-box {
         font-size: 3vw; /* Larger font size for readability */
-        padding: 3vw; /* More padding for better structure */
+        padding-top: 3vw; /* More padding for better structure */
         margin-left: 3vw; /* Adjusted margins for better fit */
         margin-right: 3vw;
     }
@@ -194,14 +193,14 @@ body {
     }
 
     body {
-        padding-top: 2vw;
+        padding: 3vw;
     }
 
     .footer-button {
         font-family: courier;
-        font-size: 0.5vw;
+        font-size: 1vw;
         background-color: rgba(255, 255, 255, 0.95);
-        border: 0.8px solid #ccc;
+        border: 0.8px solid red; /* #ccc */
         border-radius: 10px;
         padding-left: 0.4vw;
         padding-right: 0.4vw;
