@@ -17,7 +17,7 @@ html {
 
 .kettis_friendz_header {
     display: grid;
-    grid-template-columns: 18vw;
+    grid-template-columns: 18.77vw;
     border-style: solid;
     border-color: black;
     border-width: 3px;
@@ -52,7 +52,7 @@ html {
     font-size: 1.7vw;
     border-radius: 10px;
     border-style: solid;
-    border-width: .2vw;
+    border-width: .15vw;
     border-color: black;
     cursor: pointer;
     padding-left: 0.7vw;
