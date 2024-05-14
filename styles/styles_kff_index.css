@@ -214,10 +214,14 @@ html {
 
 
 /* ----------------------------- sidebare and footer buttons ------------------------------------- */
-    .sidebar_div {
-        position: static;
+     .sidebar_div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; /* Buttons werden nach rechts ausgerichtet */
         margin-top: 3vw;
-        align-items: right;
+        /* position: static;
+        margin-top: 3vw;
+        align-items: right; */
     }
     
     .sidebar-button {
