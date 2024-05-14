@@ -179,11 +179,11 @@ html {
     }
 
     body {
-        margin: 3vw;
+        margin: 4vw;
     }
 
     h1, h2, p {
-        margin: 0vw; /* Adjusted margins for spacing */
+        margin: 1vw; /* Adjusted margins for spacing */
     }
 
 /* ---------------------------- Main body properties ---------------------------- */
@@ -199,8 +199,8 @@ html {
     }
 
     .kettis_friendz_header_title, .kettis_friendz_header_date {
-        font-size: 6vw; /* Larger font size for readability */
-        width: 80%; /* Use percentage-based widths for responsiveness */
+        font-size: 8vw; /* Larger font size for readability */
+        width: 90%; /* Use percentage-based widths for responsiveness */
         margin-left: auto;
         margin-right: auto;
     }
@@ -213,8 +213,7 @@ html {
 
 /* ----------------------------- sidebare and footer buttons ------------------------------------- */
     .sidebar_div {
-        left: 2vw;
-        bottom: .3vw;
+        position: static;
     }
     
     .sidebar-button {
@@ -228,7 +227,7 @@ html {
         border-width: .1vw;
         border-color: black;
     }
-
+    
     .icon {
         width: 4vw;
         align-items: center;
@@ -262,8 +261,8 @@ html {
         grid-template-columns: 1fr; /* Takes the full available space */
         background-color: rgba(255, 255, 255, 0.93);
         font-size: 3vw; /* Larger font size for readability */
-        padding: 2vw; /* More padding for better structure */
-        margin-top: 1vw;
+        padding: 3vw; /* More padding for better structure */
+        margin-top: 2vw;
         margin-bottom: 2vw;
         margin-left: 0vw;
         margin-right: 0vw;
