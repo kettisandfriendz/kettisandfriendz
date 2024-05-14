@@ -194,7 +194,9 @@ html {
         background-color: rgba(255, 255, 255, 0.9);
         border-style: solid;
         border-color: black;
-        border-width: .1vw;
+        border-width: .2vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
         position: static;
     }
 
@@ -214,6 +216,8 @@ html {
 /* ----------------------------- sidebare and footer buttons ------------------------------------- */
     .sidebar_div {
         position: static;
+        margin-top: 3vw;
+        align-items: right;
     }
     
     .sidebar-button {
