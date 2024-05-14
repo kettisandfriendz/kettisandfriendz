@@ -180,7 +180,6 @@ html {
 
     body {
      margin: 3vw;
-     padding: 1vw;
     }
 
     h1, h2, p {
@@ -193,23 +192,23 @@ html {
     .kettis_friendz_header {
         grid-template-columns: 1fr; /* Takes the full available space */
         background-color: rgba(255, 255, 255, 0.9);
-        margin: 3vw;
+        /*margin: 3vw;*/
         /* added */
         border-style: solid;
         border-color: black;
-        border-width: 1px;
+        border-width: .1vw;
         position: static;
     }
 
     .kettis_friendz_header_title, .kettis_friendz_header_date {
-        font-size: 5vw; /* Larger font size for readability */
+        font-size: 6vw; /* Larger font size for readability */
         width: 80%; /* Use percentage-based widths for responsiveness */
         margin-left: auto;
         margin-right: auto;
     }
 
     .kettis_friendz_header_date {
-        font-size: 3vw; /* Slightly smaller than the main header, but still larger than the desktop version */
+        font-size: 4vw; /* Slightly smaller than the main header, but still larger than the desktop version */
     }
 /* ---------------------------- KFF header ------------------------------------- */
 
@@ -229,36 +228,20 @@ html {
         /* added */
         border-radius: 10px;
         border-style: solid;
-        border-width: 1px;
+        border-width: .1vw;
         border-color: black;
     }
 
     .icon {
-        width: 1.7vw;
+        width: 3vw;
         align-items: center;
-    }
-/* ----------------------------- sidebare and footer buttons ------------------------------------- */
-
-
-/* ---------------------------- div tags for the body ---------------------------- */
-    .transparent_box_div {
-        grid-template-columns: 1fr; /* Takes the full available space */
-        background-color: rgba(255, 255, 255, 0.93);
-        font-size: 3vw; /* Larger font size for readability */
-        padding: 0vw; /* More padding for better structure */
-        margin: 0vw;
-        /* added */
-        border-style: solid;
-        border-color: black;
-        border-width: .05vw;
-        position: static;
     }
 
     .footer-button {
         font-family: courier;
-        font-size: 0.7vw;
+        font-size: 4vw;
         background-color: rgba(255, 255, 255, 0.93);
-        border: 1px solid #ccc;
+        border: .1vw solid #ccc;
         border-radius: 10px;
         padding-left: 0.4vw;
         padding-right: 0.4vw;
@@ -273,7 +256,23 @@ html {
     .footer-button:active {
         opacity: 0.95;
         transform: scale(0.98);
-}
+    }
+/* ----------------------------- sidebare and footer buttons ------------------------------------- */
+
+
+/* ---------------------------- div tags for the body ---------------------------- */
+    .transparent_box_div {
+        grid-template-columns: 1fr; /* Takes the full available space */
+        background-color: rgba(255, 255, 255, 0.93);
+        font-size: 3vw; /* Larger font size for readability */
+        padding: 1vw; /* More padding for better structure */
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        border-style: solid;
+        border-color: black;
+        border-width: .05vw;
+        position: static;
+    }
 /* ---------------------------- div tags for the body ---------------------------- */
 
 
