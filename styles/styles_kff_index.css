@@ -1,5 +1,26 @@
 /* styles.css */
 
+/* ----------------------------- Main body properties -------------------------------------------- */
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding: 0px;
+    margin-top: 0.5vw;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0.5vw;
+    margin-bottom: 0px;
+}
+
+body {
+    margin-top: 18.8vw; /* 360.4px; In order to place the body at the end of the header div image */
+}
+
 html {
     background-image: url('../images/background_img.png');
     background-repeat: repeat;
@@ -14,6 +35,11 @@ html {
   font-weight: bold;
   color: black;
 }
+/* ---------------------------- Main body properties ---------------------------- */
+
+
+
+/* ---------------------------- KFF header ------------------------------------- */
 
 .kettis_friendz_header {
     display: grid;
@@ -23,7 +49,7 @@ html {
     border-width: .15vw;
     padding: .5vw;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 0vw;
     position: fixed;
     right: 2vw;
@@ -45,6 +71,9 @@ html {
     font-size: 1.5vw;
     margin: 0px;
 }
+/* ---------------------------- KFF header ------------------------------------- */
+
+
 
 /* ---------------------------- sidebare and footer buttons ------------------------------------- */
 
@@ -54,7 +83,7 @@ html {
     font-size: 1.7vw;
     border-radius: 10px;
     border-style: solid;
-    border-width: .12vw;
+    border-width: .1vw;
     border-color: black;
     cursor: pointer;
     padding-left: 0.7vw;
@@ -101,31 +130,6 @@ html {
 
 
 
-/* ----------------------------- Main body properties -------------------------------------------- */
-h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-p {
-    padding: 0px;
-    margin-top: 0.5vw;
-    margin-bottom: 0px;
-}
-
-h2 {
-    margin-top: 0.5vw;
-    margin-bottom: 0px;
-}
-
-body {
-    margin-top: 0vw;
-    padding-top: 18vw; /* 360.4px; In order to place the body at the end of the header div image */
-}
-/* ---------------------------- Main body properties ---------------------------- */
-
-
-
 
 /* ---------------------------- div tags for the body ---------------------------- */
 .footer_div {
@@ -136,21 +140,10 @@ body {
     margin-bottom: 1vw;
 }
 
-.transparent-box {
-    font-family: courier;
-    font-size: 1vw;
-    background-color: rgba(255, 255, 255, 0.93);
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 1vw;
-    margin-left: 15vw;
-    margin-right: 20vw;
-    margin-top: 0vw;
-}
 
 .transparent_box_div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin-left: 18vw;
     margin-right: 23vw;
@@ -158,17 +151,9 @@ body {
     padding: 1vw;
     font-family: courier;
     font-size: 1vw;
-    background-color: rgba(140, 72, 159, .93 ); /*rgba(255, 255, 255, 0.93);*/
-    border: .05vw solid #ccc;
+    background-color: rgba(255, 255, 255, 0.93); /*rgba(255, 255, 255, 0.93);*/
+    border: .05vw solid #ccc; /*#ccc*/
     border-radius: 10px;
-}
-
-.transparent_box2_div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3vw;
-    margin-top: 1vw;
 }
 
 .sidebar_div {
@@ -186,13 +171,28 @@ body {
 
 /* Add mobile-specific styles below */
 @media (max-width: 768px) {
+
+/* ---------------------------- Main body properties ---------------------------- */
+
     html {
         background-size: repeat;
     }
 
+    body {
+     margin: 3vw;
+     padding: 1vw;
+    }
+
+    h1, h2, p {
+        margin-top: 1vw; /* Adjusted margins for spacing */
+    }
+
+/* ---------------------------- Main body properties ---------------------------- */
+
+/* ---------------------------- KFF header ------------------------------------- */
     .kettis_friendz_header {
         grid-template-columns: 1fr; /* Takes the full available space */
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(255, 255, 255, 0.9);
         margin: 3vw;
         /* added */
         border-style: solid;
@@ -211,7 +211,10 @@ body {
     .kettis_friendz_header_date {
         font-size: 3vw; /* Slightly smaller than the main header, but still larger than the desktop version */
     }
-    
+/* ---------------------------- KFF header ------------------------------------- */
+
+
+/* ----------------------------- sidebare and footer buttons ------------------------------------- */
     .sidebar_div {
         left: 2vw;
         bottom: .3vw;
@@ -231,15 +234,19 @@ body {
     }
 
     .icon {
-        width: 4vw; /* Larger icon size for better visibility */
+        width: 1.7vw;
+        align-items: center;
     }
+/* ----------------------------- sidebare and footer buttons ------------------------------------- */
 
+
+/* ---------------------------- div tags for the body ---------------------------- */
     .transparent_box_div {
         grid-template-columns: 1fr; /* Takes the full available space */
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(255, 255, 255, 0.93);
         font-size: 3vw; /* Larger font size for readability */
-        padding: 3vw; /* More padding for better structure */
-        margin: 3vw;
+        padding: 0vw; /* More padding for better structure */
+        margin: 0vw;
         /* added */
         border-style: solid;
         border-color: black;
@@ -247,23 +254,18 @@ body {
         position: static;
     }
 
-    h1, h2, p {
-        margin-top: 1vw; /* Adjusted margins for spacing */
-    }
-
     .footer-button {
         font-family: courier;
-        font-size: 4vw;
-        background-color: rgba(255, 255, 255, 0.95);
-        border: 0.8px solid green; /* #ccc */
+        font-size: 0.7vw;
+        background-color: rgba(255, 255, 255, 0.93);
+        border: 1px solid #ccc;
         border-radius: 10px;
         padding-left: 0.4vw;
         padding-right: 0.4vw;
         padding-top: 0.2vw;
         padding-bottom: 0.2vw;
-        margin-left: 0.5vw;
     }
-    
+
     .footer-button:hover {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     }
@@ -272,4 +274,6 @@ body {
         opacity: 0.95;
         transform: scale(0.98);
 }
+/* ---------------------------- div tags for the body ---------------------------- */
+
 
