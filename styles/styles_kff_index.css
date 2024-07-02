@@ -156,6 +156,12 @@ html {
     border-radius: 10px;
 }
 
+.program_pic {
+    width: calc(100% - 2vw); /* Bildbreite ist 100% der Elternbreite minus 2vw (1vw für jeden Rand) */
+    height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis zu erhalten */
+    margin: 0 1vw; /* Rand von 1vw zu beiden Seiten */
+}
+
 .sidebar_div {
     position: fixed;
     left: 2vw;
