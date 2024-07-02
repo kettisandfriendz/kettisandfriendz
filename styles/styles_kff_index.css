@@ -175,6 +175,9 @@ html {
 }
 /* ---------------------------- div tags for the body ---------------------------- */
 
+
+
+
 /* Add mobile-specific styles below */
 @media (max-width: 768px) {
 
@@ -281,6 +284,14 @@ html {
         border-width: .05vw;
         position: static;
     }
+
+
+    .program_pic {
+        width: calc(100% - 2vw); /* Bildbreite ist 100% der Elternbreite minus 2vw (1vw für jeden Rand) */
+        height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis zu erhalten */
+        margin: 0 1vw; /* Rand von 1vw zu beiden Seiten */
+    }
+
 /* ---------------------------- div tags for the body ---------------------------- */
 
 
